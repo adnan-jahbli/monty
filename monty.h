@@ -68,6 +68,11 @@ void pall(stack_t **, unsigned int);
 void pint(stack_t **, unsigned int);
 void pop(stack_t **, unsigned int);
 void swap(stack_t **, unsigned int);
+void set_queue_mode(stack_t **, unsigned int);
+void set_stack_mode(stack_t **, unsigned int);
+void add_top_two_elements(stack_t **, unsigned int);
+void do_nothing(stack_t **, unsigned int);
+void subtract_top_element(stack_t **, unsigned int);
 
 /* get function */
 void (*get_opcode_func(char *))(stack_t **, unsigned int);

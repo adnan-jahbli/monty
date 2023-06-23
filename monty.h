@@ -73,6 +73,11 @@ void set_stack_mode(stack_t **, unsigned int);
 void add_top_two_elements(stack_t **, unsigned int);
 void do_nothing(stack_t **, unsigned int);
 void subtract_top_element(stack_t **, unsigned int);
+void divide_top_by_second(stack_t **, unsigned int);
+void multiply_top_to_second(stack_t **, unsigned int);
+void compute_modulo(stack_t **, unsigned int);
+void print_char(stack_t **, unsigned int);
+void print_string(stack_t **, unsigned int);
 
 /* get function */
 void (*get_opcode_func(char *))(stack_t **, unsigned int);

@@ -22,6 +22,11 @@ void (*get_opcode_func(char *op))(stack_t **stack, unsigned int line_number)
 		{"add", add_top_two_elements},
 		{"nop", do_nothing},
 		{"sub", subtract_top_element},
+		{"div", divide_top_by_second},
+		{"mul", multiply_top_to_second},
+		{"mod", compute_modulo},
+		{"pchar", print_char},
+		{"pstr", print_string},
 		{NULL, NULL}
 	};
 
